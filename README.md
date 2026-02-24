@@ -1,5 +1,9 @@
 # 📊 ExoMetric-DC - Minecraft Server Status Bot
 
+![GitHub Repo stars](https://img.shields.io/github/stars/zKauaFerreira/ExoMetric-DC?style=for-the-badge&color=gold)
+![GitHub repo size](https://img.shields.io/github/repo-size/zKauaFerreira/ExoMetric-DC?style=for-the-badge&color=blue)
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue?style=for-the-badge&logo=python)
+
 A premium and highly customizable Discord bot for monitoring Minecraft servers (Java Edition) using the [ExoMetric](https://github.com/zKauaFerreira/ExoMetric) mod. It offers a real-time dashboard, detailed player dossiers, and intelligent notifications.
 
 ![Dashboard Preview](image.png)
