@@ -12,10 +12,11 @@ A premium and highly customizable Discord bot for monitoring Minecraft servers (
 
 - **📈 Real-time Dashboard**: Monitor CPU, RAM, Connection (In/Out), and online players.
 - **🌍 World Details**: Game day, local time, loaded chunks, difficulty, weather, and direct integration with **Chunkbase**.
-- **👤 Player Dossier**: Vital information (health, hunger, saturation), attributes, precise coordinates, and **real-time inventory rendering**.
+- **👤 Player Dossier**: Vital information (health, hunger, saturation), attributes, precise coordinates, and **high-performance inventory rendering**.
 - **🔔 Intelligent Notifications**: Automatic alerts for login, logout, and server status (Start/Stop) with auto-deletion to keep the channel clean.
 - **🎨 Premium Aesthetics**: Use of colored ANSI blocks, animated emojis, and modern design.
 - **🛡️ Persistence**: Robust persistent message system that survives restarts.
+- **🎒 Powered by Exo-Inventory**: Utilizes the professional [exo-inventory](https://pypi.org/project/exo-inventory/) library for ultra-fast and beautiful rendering.
 
 ## 🚀 Installation and Configuration
 
@@ -58,18 +59,16 @@ python3 main.py
 
 - `/setup`: Configures the main status channel. The bot creates the channel automatically if needed and saves the ID to avoid duplicates, even if the channel is renamed.
 
-## 🎨 Asset Customization
-The bot uses local assets located in `src/assets`. It is essential that this folder is maintained for the correct functioning of inventory rendering and customized icons.
-
 ## 🤝 Acknowledgments
-- **[zKauaFerreira](https://github.com/zKauaFerreira)**: For developing the **ExoMetric** mod and its API.
+- **[zKauaFerreira](https://github.com/zKauaFerreira)**: For developing the **ExoMetric** mod and the **Exo-Inventory** library.
 - **Jemsire**: For the asset and icon infrastructure.
 - **Minecraft Community**: For graphical resources and continuous support.
 
 ## 🛠️ Technologies Used
 - **discord.py**: Interface with the Discord API.
+- **exo-inventory**: High-performance Minecraft inventory rendering.
 - **Aiohttp**: Asynchronous communication with the server API.
-- **Pillow (PIL)**: Dynamic rendering of player inventories.
+- **Pillow (PIL)**: Image processing through the rendering engine.
 
 ---
 *Developed to provide the best monitoring experience for Minecraft communities.* 🛡️💎

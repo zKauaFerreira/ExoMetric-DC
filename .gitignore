@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+venv_exo/
+
+# Configurações sensíveis
+.env
+db.json
+
+# IDEs
+.vscode/
+.idea/
+
+# Assets - Agora gerenciados pela lib exo-inventory
+# Mantemos apenas o arquivo de fundo se necessário, mas a lib já tem um padrão.
+# Se quiser ignorar o cache da lib (que fica no site-packages), não precisa fazer nada aqui.
+# Se a lib gerar arquivos locais (cache_dir), podemos ignorar.
+src/assets/items/
+src/assets/versions/
+src/assets/jemsire_index.json
+src/assets/ui/
+
+# Logs e temporários
+*.log
+test_output.png
+test_render.py
+
+# Ignorar o próprio arquivo .gitignore (opcional, mas comum não ignorar)
+# .gitignore
