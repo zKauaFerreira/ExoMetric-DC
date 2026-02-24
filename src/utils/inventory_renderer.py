@@ -6,7 +6,8 @@ import os
 import asyncio
 from src.utils.jemsire_finder import JemsireIconFinder
 
-ASSETS_DIR = "/home/kauafpss/Documentos/Minecraft MOD/ExoMetricBot/src/assets"
+# Baseado na pasta atual: raiz/src/utils/inventory_renderer.py
+ASSETS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets"))
 # Nova pasta para ícones de interface para não ser confundida com cache de itens
 UI_DIR = os.path.join(ASSETS_DIR, "ui")
 os.makedirs(UI_DIR, exist_ok=True)

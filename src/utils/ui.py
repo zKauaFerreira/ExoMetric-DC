@@ -9,7 +9,8 @@ TZ_OFFSET = timezone(timedelta(hours=-3))
 from src.utils.inventory_renderer import renderer
 
 # Caminhos locais para os ícones
-ASSETS_DIR = "/home/kauafpss/Documentos/Minecraft MOD/ExoMetricBot/src/assets"
+# Baseado na pasta atual: raiz/src/utils/ui.py
+ASSETS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "assets"))
 
 def format_bytes(size):
     if not size: return "0 B"
