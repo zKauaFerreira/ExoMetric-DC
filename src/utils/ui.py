@@ -84,8 +84,8 @@ def create_status_embed(data):
     world_day = data.get('world_day', 0)
 
     embed = Embed(
-        title="<a:loading:1274933254880755815> Painel de Status",
-        description=f"\n🖥️ **Host:**\n```\nosguri.servegame.net\n```",
+        title="⏳ Painel de Status",
+        description=f"\n🖥️ **Host:**\n```\n{os.getenv('SERVER_HOST', 'SEU_IP_AQUI')}\n```",
         color=0x57F287
     )
 
